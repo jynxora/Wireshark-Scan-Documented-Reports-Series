@@ -27,7 +27,7 @@ All captured, analyzed, and documented using **Wireshark GUI**, `tcp.stream` fil
 
 | # | Title | Folder | PDF Report | .MD Report | ⬇️Download [PDF] |
 |---|-------|--------|------------|-------| ------- |
-| 1 | FTP Cleartext Credentials | [WiresharkScan1](./WiresharkScan1) | [PDF](./WiresharkScan1/WiresharkScan1.pdf) | [MD](./WiresharkScan1/WiresharkScan1.md) | [⬇️Download]() |
+| 1 | FTP Cleartext Credentials | [WiresharkScan1](./WiresharkScan1) | [PDF](./WiresharkScan1/WiresharkScan1.pdf) | [MD](./WiresharkScan1/WiresharkScan1.md) | [⬇️Download](https://github.com/jynxora/Wireshark-Scan-Documented-Reports-Series/raw/main/WiresharkScan1/WiresharkScan1.pdf) |
 
 > New PCAPs, Scans and Reports will be added in future — growing in complexity (C2 beacons, tunneling, malware traffic, credential theft)
 
