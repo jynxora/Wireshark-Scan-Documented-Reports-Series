@@ -37,11 +37,11 @@ All captured, analyzed, and documented using **Wireshark GUI**, `tcp.stream` fil
 
 Each scan trains:
 
-- 🎯 Focused packet triage
-- 🔐 Credential extraction logic
-- 📡 Protocol awareness (FTP, HTTP, DNS, ICMP, SSL)
-- 🧾 Documentation discipline (stream → finding → risk)
-- 🧰 Operational filter fluency in Wireshark
+- Focused packet triage
+- Credential extraction logic
+- Protocol awareness (FTP, HTTP, DNS, ICMP, SSL)
+- Documentation discipline (stream → finding → risk)
+- Operational filter fluency in Wireshark
 
 ---
 
@@ -85,7 +85,7 @@ Each report is pushed to:
 - 🖤 [X / Twitter](https://x.com/JynxZero)
 - 📁 This GitHub repo (Markdown + PDF)
 
-🧠 Use it. Fork it. Learn from it. Extend it.
+Use it. Fork it. Learn from it. Extend it.
 
 ---
 
