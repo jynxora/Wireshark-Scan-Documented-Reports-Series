@@ -1,122 +1,102 @@
-# 🔍 DFIR Ops & Wireshark Scans — CTF-Driven Forensics
+# 🌐 Wireshark Scan Library — DFIR Packet Analysis Reports
 
-Welcome to my growing repository of hands-on forensic analysis reports, Wireshark packet dissections, CTF-style case investigations, and operational recon exercises — all published under the **#700DaysOfSkill** initiative.
+> “Not every weapon is heavy. Some just cut fast.”
 
-> This is not just a collection of solved challenges — this is a living arsenal of DFIR weapons, sharpened daily.
+This repository is a **dedicated archive of Wireshark packet analysis reports** produced under my #700DaysOfSkill journey — each scan sharpened with tactical intent.
 
----
-
-## 📦 Overview
-
-This collection captures practical work in:
-
-- 🔬 **Digital Forensics & Incident Response (DFIR)**
-- 🧪 **Memory and Disk Forensics**
-- 🌐 **Network Traffic Analysis (Wireshark)**
-- 🧱 **Linux Permissions & Threat Hunting**
-- 🎯 **Adversary Simulation & CTF Triages**
-- 🧰 **Security Auditing, Detection & Investigation**
-
-Whether you're a student, blue teamer, or self-paced analyst — this repo offers raw, real-world DFIR breakdowns grounded in actual forensic logic.
+These are not generic tutorials.  
+These are forensic dissections — focused, documented, and shared for public intel.
 
 ---
 
-## 🚀 Getting Started
+## 🔍 What’s Inside
 
-**No fluff. Just execution.**
+This repo contains:
 
-### Prerequisites:
-- Linux system (Kali, Ubuntu, Parrot, etc.)
-- Basic CLI familiarity
-- Willingness to document and think like an analyst
+- 🎯 **Real PCAP analysis cases**
+- 📄 **Markdown & PDF reports**
+- 🧪 **Credential exposures, malware behaviors, DNS leaks**
+- 🛠️ **Protocol filter usage**
+- 🧠 **Threat reasoning behind every scan**
 
-### How to Use:
-1. Pick a challenge/report folder
-2. Read the `README.md` or open the `.pdf`
-3. Run the Challenge File for yourself
-4. Compare with my walkthroughs
-5. Extend, publish, improve
+All captured, analyzed, and documented using **Wireshark GUI**, `tcp.stream` filters, and forensic operator logic.
 
 ---
 
-## 📑 Report Index
+## 📑 Current Scans
 
-| # | Case Title | Markdown Notes | PDF Report | .md Report | Challenge File |
-|---|------------|----------------|-------------|----------------|
-| 1 | Wireshark-1 | [Scan-1](./WiresharkScan1/) | [PDF]() | [MD]() | [DIY Challenge]() |
-| 2 | Wireshark Scans | --- | --- | --- | --- |
+| # | Title | Folder | PDF Report | .MD Report | ⬇️Download [PDF] |
+|---|-------|--------|------------|-------| ------- |
+| 1 | FTP Cleartext Credentials | [WiresharkScan1](./WiresharkScan1) | [PDF](./WiresharkScan1/WiresharkScan1.pdf) | [MD](./WiresharkScan1/WiresharkScan1.md) | [⬇️Download]() |
 
----
-
-## 🔄 Future Drops (Coming Soon)
-
-This repo is expanding over the next 700 days with:
-
-Every case includes:
-- Objectives + Setup Notes
-- Step-by-step tooling
-- Analyst commentary
-- Risk/Threat takeaways
-- PDF + Markdown documentation
+> New PCAPs, Scans and Reports will be added in future — growing in complexity (C2 beacons, tunneling, malware traffic, credential theft)
 
 ---
 
-## 🛡️ Security Checklist Themes (used in all cases)
+## 🎓 Learning Outcomes
 
-- Verify file permission anomalies
-- Extract hidden & encrypted files
-- Follow protocol flow (TCP streams, creds)
-- Reconstruct attacker behavior from system/network artifacts
-- Build documentation like a forensic operator
+Each scan trains:
 
----
-
-## 🤝 Contributing
-
-This repo reflects my **personal challenge and progression** — but I welcome:
-- Suggestions or case expansion ideas
-- Alt-solutions and remediations
-- Sample PCAPs or memory images (if open-source/legal)
+- 🎯 Focused packet triage
+- 🔐 Credential extraction logic
+- 📡 Protocol awareness (FTP, HTTP, DNS, ICMP, SSL)
+- 🧾 Documentation discipline (stream → finding → risk)
+- 🧰 Operational filter fluency in Wireshark
 
 ---
 
-## 📚 Related Resources
+## 🧱 Why This Repo Exists
 
-- 📘 *Linux Basics for Hackers — Chapterwise Notes*  
-  → [Repo](https://github.com/jynxora/Linux-Basics-for-Hackers-Chapterwise-Notes)
-- 📓 *Memory Forensics: Volatility Case Work*
-- 📎 *Cybersecurity Architecture | IBM & DFIR Syllabus*
+This is a long-term memory weapon.
 
----
+I’m building a personal **arsenal of protocol understanding** — not surface knowledge, but operational clarity.
 
-## 🌐 Follow + Publish + Collaborate
+Each `.pcap` and report represents:
 
-I post every day under `#700DaysOfSkill` on:
+- 1 scan
+- 1 threat vector internalized
+- 1 weakness exposed
 
-- 🟦 [LinkedIn](https://www.linkedin.com/in/your-profile)
-- 🖋 [Medium](https://medium.com/@your-handle)
-- 🖤 [X / Twitter](https://twitter.com/your-handle)
-
-🗂️ GitHub Repo = home base for my public investigations and case drop history.
+No fluff. Just forensic skill compounding over time.
 
 ---
 
-## 🏆 Acknowledgments
+## 🔄 What’s Coming Next
 
-Gratitude to the Cybersecurity, DFIR, and open-source communities who:
-- Built the tools I now depend on
-- Released the datasets I now dissect
-- Inspired the work I now publish
+Future Wireshark scans will cover:
+
+- Malware over HTTP/HTTPS
+- Covert DNS tunneling
+- Beaconing over ICMP
+- Credential reuse in plaintext
+- PCAP-carved file extraction
+- TLS fingerprinting / JA3
+- Suspicious user-agent patterns
+
+Each scan will go deeper into **forensic protocol behavior**, mapped to **real-world attacker TTPs**.
 
 ---
 
-> “Even if I don’t improve daily, I show up daily.  
->  700 days of silence.  
->  Then you hear the noise.”  
->  — Jynx
+## 🌐 Publishing Trail
+
+Each report is pushed to:
+- 🟦 [LinkedIn](https://www.linkedin.com/in/jynxora/)
+- ✍️ [Medium](https://medium.com/@jynxora)
+- 🖤 [X / Twitter](https://x.com/JynxZero)
+- 📁 This GitHub repo (Markdown + PDF)
+
+🧠 Use it. Fork it. Learn from it. Extend it.
+
+---
+
+## 📜 License
+
+Educational, non-commercial use only.  
+All packet captures are sourced from public malware labs or generated for controlled analysis.
+
+> “Train to detect. Document to remember. Publish to dominate.”  
+> — Jynx
 
 **#700DaysOfSkill**
 
----
-
-**Last Updated:** July 16, 2025  
+**Last Updated:** July 16, 2025
