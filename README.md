@@ -13,11 +13,11 @@ These are forensic dissections — focused, documented, and shared for public in
 
 This repo contains:
 
-- 🎯 **Real PCAP analysis cases**
-- 📄 **Markdown & PDF reports**
-- 🧪 **Credential exposures, malware behaviors, DNS leaks**
-- 🛠️ **Protocol filter usage**
-- 🧠 **Threat reasoning behind every scan**
+-  **Real PCAP analysis cases**
+-  **Markdown & PDF reports**
+-  **Credential exposures, malware behaviors, DNS leaks**
+-  **Protocol filter usage**
+-  **Threat reasoning behind every scan**
 
 All captured, analyzed, and documented using **Wireshark GUI**, `tcp.stream` filters, and forensic operator logic.
 
