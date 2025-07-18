@@ -63,7 +63,7 @@ No fluff. Just forensic skill compounding over time.
 
 ---
 
-## 🔄 What’s Coming Next
+## What’s Coming Next 🔜
 
 Future Wireshark scans will cover:
 
