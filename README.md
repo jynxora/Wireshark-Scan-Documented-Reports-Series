@@ -28,6 +28,8 @@ All captured, analyzed, and documented using **Wireshark GUI**, `tcp.stream` fil
 | # | Title | Folder | PDF Report | .MD Report | ⬇️Download [PDF] |
 |---|-------|--------|------------|-------| ------- |
 | 1 | FTP Cleartext Credentials | [WiresharkScan1](./WiresharkScan1) | [PDF](./WiresharkScan1/WiresharkScan1.pdf) | [MD](./WiresharkScan1/WiresharkScan1.md) | [⬇️Download](https://github.com/jynxora/Wireshark-Scan-Documented-Reports-Series/raw/main/WiresharkScan1/WiresharkScan1.pdf) |
+| 2 | KOI Loader Wireshark Investigation | [WiresharkScan1](./WiresharkScan2) | [PDF](./WiresharkScan2/WiresharkScan2.pdf) | [MD](./WiresharkScan2/WiresharkScan2.md) | [⬇️Download](https://github.com/jynxora/Wireshark-Scan-Documented-Reports-Series/raw/main/WiresharkScan2/WiresharkScan2.pdf) |
+| 3 | Coming Soon 🔜 | - | - | - | - |
 
 > New PCAPs, Scans and Reports will be added in future — growing in complexity (C2 beacons, tunneling, malware traffic, credential theft)
 
